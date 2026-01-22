@@ -13,13 +13,21 @@ This project is intended for educational and practice purposes only, aimed at im
 📌 Features : 
 
 ✔ User Registration & Login
+
 ✔ Add New Employees
+
 ✔ View All Employees
+
 ✔ Update Employee Details
+
 ✔ Delete Employee Records
+
 ✔ Clean UI using Bootstrap
+
 ✔ MVC-based structured flow
+
 ✔ JDBC Database Connectivity
+
 
 🛠 Tech Stack : 
 
@@ -36,24 +44,39 @@ This project is intended for educational and practice purposes only, aimed at im
 📁 Project Structure : 
 
 SmartEmployeePortal/
+
  ├── src/main/java/
+ 
  │    └── com.example.controller
+ 
  │    └── com.example.model
+ 
  │    └── com.example.dao
+ 
  │    └── com.example.service
+ 
  ├── src/main/resources/
+ 
  │    └── application.properties
+ 
  ├── src/main/webapp/
+ 
  │    └── WEB-INF/jsp/
+ 
  │         └── login.jsp
+ 
  │         └── register.jsp
+ 
  │         └── employees.jsp
+ 
  │         └── edit.jsp
+ 
  └── pom.xml
 
 ⚙️ Setup & Installation : 
 
 1️⃣ Clone the repository
+
 git clone https://github.com/your-username/smart-employee-portal.git
 
 2️⃣ Configure Database
@@ -65,7 +88,9 @@ CREATE DATABASE employee_db;
 Update your application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
+
 spring.datasource.username=youruser
+
 spring.datasource.password=yourpassword
 
 3️⃣ Build & Run
